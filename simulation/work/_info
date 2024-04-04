@@ -1,0 +1,460 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/College/EEC180/Labs/FP/FinalProject/simulation
+vALU
+Z0 !s110 1710361839
+!i10b 1
+!s100 ]MC20C6nWc]>Ve3X:3Pde0
+IB4`eJS>^G`fWnOhZ43PL90
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/College/EEC180/Labs/Pipeline_processor/simulation
+w1710317119
+8D:/College/EEC180/Labs/Pipeline_processor/hdl/ALU.v
+FD:/College/EEC180/Labs/Pipeline_processor/hdl/ALU.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1710361839.000000
+!s107 D:/College/EEC180/Labs/Pipeline_processor/hdl/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/hdl/ALU.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@l@u
+vALU_control
+R0
+!i10b 1
+!s100 FhI4k]Dk6mk>HPC:fI:X80
+IL:^zRhID>L3NK8J9NdcnT3
+R1
+R2
+w1710317149
+8D:/College/EEC180/Labs/Pipeline_processor/hdl/ALU_control.v
+FD:/College/EEC180/Labs/Pipeline_processor/hdl/ALU_control.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/College/EEC180/Labs/Pipeline_processor/hdl/ALU_control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/hdl/ALU_control.v|
+!i113 1
+R5
+R6
+n@a@l@u_control
+vcontrol
+R0
+!i10b 1
+!s100 zIaSVnG5hDad]iY7cb]=e3
+I;5hH@F11`c;jnY`J;K^MG1
+R1
+R2
+w1710112141
+8D:/College/EEC180/Labs/Pipeline_processor/hdl/control.v
+FD:/College/EEC180/Labs/Pipeline_processor/hdl/control.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/College/EEC180/Labs/Pipeline_processor/hdl/control.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/hdl/control.v|
+!i113 1
+R5
+R6
+vDATA_MEM
+R0
+!i10b 1
+!s100 5b0GGLWAVKmSGcbWnJR4X1
+I=UZgmWbE<68K^:UfOXPE82
+R1
+R2
+w1709851986
+8D:/College/EEC180/Labs/Pipeline_processor/hdl/DATA_MEM.v
+FD:/College/EEC180/Labs/Pipeline_processor/hdl/DATA_MEM.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/College/EEC180/Labs/Pipeline_processor/hdl/DATA_MEM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/hdl/DATA_MEM.v|
+!i113 1
+R5
+R6
+n@d@a@t@a_@m@e@m
+vimme_generator
+Z7 !s110 1710361840
+!i10b 1
+!s100 W;X<CA[K3EFGQ`WzL7n3b1
+IcQFli96KR`SN3TlG@1ZIB1
+R1
+R2
+w1709771766
+8D:/College/EEC180/Labs/Pipeline_processor/hdl/imme_generator.v
+FD:/College/EEC180/Labs/Pipeline_processor/hdl/imme_generator.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1710361840.000000
+!s107 D:/College/EEC180/Labs/Pipeline_processor/hdl/imme_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/hdl/imme_generator.v|
+!i113 1
+R5
+R6
+vinstruction_data_mem
+R7
+!i10b 1
+!s100 G9bL:_m_m^AKo9M0GcAz81
+I]FQ@bEUQ88838;6WjYT6c0
+R1
+R2
+w1710317189
+8D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_data_mem.v
+FD:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_data_mem.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_data_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_data_mem.v|
+!i113 1
+R5
+R6
+vinstruction_decode
+R7
+!i10b 1
+!s100 jd00hPUgKY4_g>zo>=b]L1
+ID[j5S=SP^O0nWXe?mKSBg3
+R1
+R2
+w1710115649
+8D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_decode.v
+FD:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_decode.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_decode.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_decode.v|
+!i113 1
+R5
+R6
+vinstruction_execution
+R7
+!i10b 1
+!s100 ADjj1QA?<M60JQ=LfWd6P1
+IS6CPkn1f61z`=_n5[U51_2
+R1
+R2
+w1710317228
+8D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_execution.v
+FD:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_execution.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_execution.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_execution.v|
+!i113 1
+R5
+R6
+vinstruction_fetch
+R7
+!i10b 1
+!s100 KzP;FU=z5mmPadh;79<TC3
+Ik0l9<JE9RE]Y=GEH8=7Oj3
+R1
+R2
+w1710317243
+8D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_fetch.v
+FD:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_fetch.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_fetch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_fetch.v|
+!i113 1
+R5
+R6
+vinstruction_MEM
+R7
+!i10b 1
+!s100 L58Kb1NCZD8zi4DdBcoNF0
+I<afkA=k:]gda?C05d[ic]0
+R1
+R2
+w1710113556
+8D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_MEM.v
+FD:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_MEM.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_MEM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_MEM.v|
+!i113 1
+R5
+R6
+ninstruction_@m@e@m
+vinstruction_write_back
+R7
+!i10b 1
+!s100 GbJB:U<bQieK^ATY24=5B3
+IOQ266NNbUPkOc37I3kYjA1
+R1
+R2
+w1710317110
+8D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_write_back.v
+FD:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_write_back.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_write_back.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_write_back.v|
+!i113 1
+R5
+R6
+vMUX
+!s110 1710108783
+!i10b 1
+!s100 O4<GJ]HFIh2eMSj`C;E9H3
+IQZPCD;i^XodK314XLTb4z1
+R1
+R2
+w1709794770
+8D:/College/EEC180/Labs/Pipeline_processor/hdl/MUX.v
+FD:/College/EEC180/Labs/Pipeline_processor/hdl/MUX.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1710108783.000000
+!s107 D:/College/EEC180/Labs/Pipeline_processor/hdl/MUX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/hdl/MUX.v|
+!i113 1
+R5
+R6
+n@m@u@x
+vPipeline_Processor
+R7
+!i10b 1
+!s100 AD@UZa`KF@dB?`Z?ILK6W2
+Ik;GI=_85a[fkiDeTAJQ4g0
+R1
+R2
+w1710317159
+8D:/College/EEC180/Labs/Pipeline_processor/synthesis/Pipeline_Processor.v
+FD:/College/EEC180/Labs/Pipeline_processor/synthesis/Pipeline_Processor.v
+L0 6
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/College/EEC180/Labs/Pipeline_processor/synthesis/Pipeline_Processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/synthesis/Pipeline_Processor.v|
+!i113 1
+R5
+R6
+n@pipeline_@processor
+vREGISTER
+R0
+!i10b 1
+!s100 NIU@mYem=KPYES>m;2f^o1
+IF`kQVAC`bJ01:]mhb>;jM3
+R1
+R2
+w1710317260
+8D:/College/EEC180/Labs/Pipeline_processor/hdl/REGISTER.v
+FD:/College/EEC180/Labs/Pipeline_processor/hdl/REGISTER.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/College/EEC180/Labs/Pipeline_processor/hdl/REGISTER.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/hdl/REGISTER.v|
+!i113 1
+R5
+R6
+n@r@e@g@i@s@t@e@r
+vtb_instruction_data_mem
+Z9 !s110 1710361841
+!i10b 1
+!s100 H3Hgh1]3Z9`o7M9NLVBJ12
+IkWID;?L`@7V33Lf5R7hkN3
+R1
+R2
+w1710316858
+8D:/College/EEC180/Labs/Pipeline_processor/test/tb_instruction_data_mem.v
+FD:/College/EEC180/Labs/Pipeline_processor/test/tb_instruction_data_mem.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z10 !s108 1710361841.000000
+!s107 D:/College/EEC180/Labs/Pipeline_processor/test/tb_instruction_data_mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/test/tb_instruction_data_mem.v|
+!i113 1
+R5
+R6
+vtb_instruction_decode
+R9
+!i10b 1
+!s100 G<czkN;U]gAO0>QV7`o?I0
+ISP=e;A?hS?OdmEj8TYDLY0
+R1
+R2
+w1710316701
+8D:/College/EEC180/Labs/Pipeline_processor/test/tb_instruction_decode.v
+FD:/College/EEC180/Labs/Pipeline_processor/test/tb_instruction_decode.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/College/EEC180/Labs/Pipeline_processor/test/tb_instruction_decode.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/test/tb_instruction_decode.v|
+!i113 1
+R5
+R6
+vtb_instruction_execution
+R9
+!i10b 1
+!s100 fUZcX[O9e3JH0knLLNzGj1
+IaZzX:]7Wohb7anmmDXbiA2
+R1
+R2
+w1710316841
+8D:/College/EEC180/Labs/Pipeline_processor/test/tb_instruction_execution.v
+FD:/College/EEC180/Labs/Pipeline_processor/test/tb_instruction_execution.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/College/EEC180/Labs/Pipeline_processor/test/tb_instruction_execution.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/test/tb_instruction_execution.v|
+!i113 1
+R5
+R6
+vtb_instruction_fetch
+R9
+!i10b 1
+!s100 ]>6G0f6FU[Q8il01K8fXO0
+I@aE=1mFm_F;A4MQ5`;[<>0
+R1
+R2
+w1710316802
+8D:/College/EEC180/Labs/Pipeline_processor/test/tb_instruction_fetch.v
+FD:/College/EEC180/Labs/Pipeline_processor/test/tb_instruction_fetch.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/College/EEC180/Labs/Pipeline_processor/test/tb_instruction_fetch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/test/tb_instruction_fetch.v|
+!i113 1
+R5
+R6
+vtb_instruction_write_back
+R7
+!i10b 1
+!s100 B];CNhloz^YA381;^J];b3
+Il]?N9ZQUz>`ROa0?X0eFi0
+R1
+R2
+w1710317004
+8D:/College/EEC180/Labs/Pipeline_processor/test/ttb_instruction_write_back.v
+FD:/College/EEC180/Labs/Pipeline_processor/test/ttb_instruction_write_back.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 D:/College/EEC180/Labs/Pipeline_processor/test/ttb_instruction_write_back.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/test/ttb_instruction_write_back.v|
+!i113 1
+R5
+R6
+vtb_MUX
+!s110 1709853986
+!i10b 1
+!s100 o=5bFXVzA:]I54^=N]N]O0
+Ij>z52TTIP_VPd9_T]1AEE2
+R1
+R2
+w1709794611
+8D:/College/EEC180/Labs/Pipeline_processor/test/tb_MUX.v
+FD:/College/EEC180/Labs/Pipeline_processor/test/tb_MUX.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1709853986.000000
+!s107 D:/College/EEC180/Labs/Pipeline_processor/test/tb_MUX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/test/tb_MUX.v|
+!i113 1
+R5
+R6
+ntb_@m@u@x
+vtb_Pipeline_Processor
+R9
+!i10b 1
+!s100 CJ]O_m2[eCHhD7FNgmKPE0
+I4Qod4kf02hZA3[4cCaNHI3
+R1
+R2
+w1710316478
+8D:/College/EEC180/Labs/Pipeline_processor/test/tb_Pipeline_Processor.v
+FD:/College/EEC180/Labs/Pipeline_processor/test/tb_Pipeline_Processor.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 D:/College/EEC180/Labs/Pipeline_processor/test/tb_Pipeline_Processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:/College/EEC180/Labs/Pipeline_processor/test/tb_Pipeline_Processor.v|
+!i113 1
+R5
+R6
+ntb_@pipeline_@processor

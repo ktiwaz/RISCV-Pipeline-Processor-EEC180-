@@ -1,0 +1,29 @@
+D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_write_back.v {1 {vlog -work work -stats=none D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_write_back.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module instruction_write_back
+
+Top level modules:
+	instruction_write_back
+
+} {} {}} D:/College/EEC180/Labs/Pipeline_processor/test/ttb_instruction_write_back.v {1 {vlog -work work -stats=none D:/College/EEC180/Labs/Pipeline_processor/test/ttb_instruction_write_back.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_instruction_write_back
+
+Top level modules:
+	tb_instruction_write_back
+
+} {} {}} D:/College/EEC180/Labs/Pipeline_processor/hdl/REGISTER.v {1 {vlog -work work -stats=none D:/College/EEC180/Labs/Pipeline_processor/hdl/REGISTER.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module REGISTER
+
+Top level modules:
+	REGISTER
+
+} {} {}} D:/College/EEC180/Labs/Pipeline_processor/hdl/MUX.v {1 {vlog -work work -stats=none D:/College/EEC180/Labs/Pipeline_processor/hdl/MUX.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module MUX
+
+Top level modules:
+	MUX
+
+} {} {}}

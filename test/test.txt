@@ -1,0 +1,457 @@
+//	$display("PC is %b, PCBranch is %b, PCSelect is %b, IFID_PC is %b, state is %b, nextstate is %b, ins is %b, IFID is %b",
+//				UUT.fetch.PC,
+//				UUT.fetch.PCBranch,
+//				UUT.fetch.PCSelect,
+//				UUT.fetch.IFID_PC,
+//				UUT.fetch.state,
+//				UUT.fetch.nextstate,
+//				UUT.fetch.ins,
+//				UUT.fetch.IFID
+//	);
+//	#20;
+//	$display("PC is %b, PCBranch is %b, PCSelect is %b, IFID_PC is %b, state is %b, nextstate is %b, ins is %b, IFID is %b",
+//				UUT.fetch.PC,
+//				UUT.fetch.PCBranch,
+//				UUT.fetch.PCSelect,
+//				UUT.fetch.IFID_PC,
+//				UUT.fetch.state,
+//				UUT.fetch.nextstate,
+//				UUT.fetch.ins,
+//				UUT.fetch.IFID
+//	);
+//		#20;
+//	$display("PC is %b, PCBranch is %b, PCSelect is %b, IFID_PC is %b, state is %b, nextstate is %b, ins is %b, IFID is %b",
+//				UUT.fetch.PC,
+//				UUT.fetch.PCBranch,
+//				UUT.fetch.PCSelect,
+//				UUT.fetch.IFID_PC,
+//				UUT.fetch.state,
+//				UUT.fetch.nextstate,
+//				UUT.fetch.ins,
+//				UUT.fetch.IFID
+//	);
+//		#20;
+//	$display("PC is %b, PCBranch is %b, PCSelect is %b, IFID_PC is %b, state is %b, nextstate is %b, ins is %b, IFID is %b",
+//				UUT.fetch.PC,
+//				UUT.fetch.PCBranch,
+//				UUT.fetch.PCSelect,
+//				UUT.fetch.IFID_PC,
+//				UUT.fetch.state,
+//				UUT.fetch.nextstate,
+//				UUT.fetch.ins,
+//				UUT.fetch.IFID
+//	);
+//		#20;
+//	$display("PC is %b, PCBranch is %b, PCSelect is %b, IFID_PC is %b, state is %b, nextstate is %b, ins is %b, IFID is %b",
+//				UUT.fetch.PC,
+//				UUT.fetch.PCBranch,
+//				UUT.fetch.PCSelect,
+//				UUT.fetch.IFID_PC,
+//				UUT.fetch.state,
+//				UUT.fetch.nextstate,
+//				UUT.fetch.ins,
+//				UUT.fetch.IFID
+//	);
+//	#20;
+//	$display("PC is %b, PCBranch is %b, PCSelect is %b, IFID_PC is %b, state is %b, nextstate is %b, ins is %b, IFID is %b",
+//				UUT.fetch.PC,
+//				UUT.fetch.PCBranch,
+//				UUT.fetch.PCSelect,
+//				UUT.fetch.IFID_PC,
+//				UUT.fetch.state,
+//				UUT.fetch.nextstate,
+//				UUT.fetch.ins,
+//				UUT.fetch.IFID
+//	);
+//		#20;
+//	$display("PC is %b, PCBranch is %b, PCSelect is %b, IFID_PC is %b, state is %b, nextstate is %b, ins is %b, IFID is %b",
+//				UUT.fetch.PC,
+//				UUT.fetch.PCBranch,
+//				UUT.fetch.PCSelect,
+//				UUT.fetch.IFID_PC,
+//				UUT.fetch.state,
+//				UUT.fetch.nextstate,
+//				UUT.fetch.ins,
+//				UUT.fetch.IFID
+//	);
+//		#20;
+//	$display("PC is %b, PCBranch is %b, PCSelect is %b, IFID_PC is %b, state is %b, nextstate is %b, ins is %b, IFID is %b",
+//				UUT.fetch.PC,
+//				UUT.fetch.PCBranch,
+//				UUT.fetch.PCSelect,
+//				UUT.fetch.IFID_PC,
+//				UUT.fetch.state,
+//				UUT.fetch.nextstate,
+//				UUT.fetch.ins,
+//				UUT.fetch.IFID
+//	);
+//		#20;
+//	$display("PC is %b, PCBranch is %b, PCSelect is %b, IFID_PC is %b, state is %b, nextstate is %b, ins is %b, IFID is %b",
+//				UUT.fetch.PC,
+//				UUT.fetch.PCBranch,
+//				UUT.fetch.PCSelect,
+//				UUT.fetch.IFID_PC,
+//				UUT.fetch.state,
+//				UUT.fetch.nextstate,
+//				UUT.fetch.ins,
+//				UUT.fetch.IFID
+//	);
+//		#20;
+//	$display("PC is %b, PCBranch is %b, PCSelect is %b, IFID_PC is %b, state is %b, nextstate is %b, ins is %b, IFID is %b",
+//				UUT.fetch.PC,
+//				UUT.fetch.PCBranch,
+//				UUT.fetch.PCSelect,
+//				UUT.fetch.IFID_PC,
+//				UUT.fetch.state,
+//				UUT.fetch.nextstate,
+//				UUT.fetch.ins,
+//				UUT.fetch.IFID
+//	);
+//		#20;
+//	$display("PC is %b, PCBranch is %b, PCSelect is %b, IFID_PC is %b, state is %b, nextstate is %b, ins is %b, IFID is %b",
+//				UUT.fetch.PC,
+//				UUT.fetch.PCBranch,
+//				UUT.fetch.PCSelect,
+//				UUT.fetch.IFID_PC,
+//				UUT.fetch.state,
+//				UUT.fetch.nextstate,
+//				UUT.fetch.ins,
+//				UUT.fetch.IFID
+//	);
+//		#20;
+//	$display("PC is %b, PCBranch is %b, PCSelect is %b, IFID_PC is %b, state is %b, nextstate is %b, ins is %b, IFID is %b",
+//				UUT.fetch.PC,
+//				UUT.fetch.PCBranch,
+//				UUT.fetch.PCSelect,
+//				UUT.fetch.IFID_PC,
+//				UUT.fetch.state,
+//				UUT.fetch.nextstate,
+//				UUT.fetch.ins,
+//				UUT.fetch.IFID
+//	);
+//		#20;
+//	$display("PC is %b, PCBranch is %b, PCSelect is %b, IFID_PC is %b, state is %b, nextstate is %b, ins is %b, IFID is %b",
+//				UUT.fetch.PC,
+//				UUT.fetch.PCBranch,
+//				UUT.fetch.PCSelect,
+//				UUT.fetch.IFID_PC,
+//				UUT.fetch.state,
+//				UUT.fetch.nextstate,
+//				UUT.fetch.ins,
+//				UUT.fetch.IFID
+//	);
+
+//
+//	#20;
+//	$display ( "IDEX_PC is %b, OFFSET is %b, Zero is %b, PCBranch_result%b, passed PC is %b",
+//				UUT.execution.IDEX_PC,
+//				UUT.execution.imme32,
+//				UUT.execution.Zero,
+//				UUT.execution.PCBranch_result,
+//				UUT.execution.PCBranch_EXMEM
+//	);
+//	#20;
+//	$display ( "IDEX_PC is %b, OFFSET is %b, Zero is %b, PCBranch_result%b, passed PC is %b",
+//				UUT.execution.IDEX_PC,
+//				UUT.execution.imme32,
+//				UUT.execution.Zero,
+//				UUT.execution.PCBranch_result,
+//				UUT.execution.PCBranch_EXMEM
+//	);
+//	#20;
+//	$display ( "IDEX_PC is %b, OFFSET is %b, Zero is %b, PCBranch_result%b, passed PC is %b",
+//				UUT.execution.IDEX_PC,
+//				UUT.execution.imme32,
+//				UUT.execution.Zero,
+//				UUT.execution.PCBranch_result,
+//				UUT.execution.PCBranch_EXMEM
+//	);
+//	#20;
+//	$display ( "IDEX_PC is %b, OFFSET is %b, Zero is %b, PCBranch_result%b, passed PC is %b",
+//				UUT.execution.IDEX_PC,
+//				UUT.execution.imme32,
+//				UUT.execution.Zero,
+//				UUT.execution.PCBranch_result,
+//				UUT.execution.PCBranch_EXMEM
+//	);
+//	#20;
+//	$display ( "IDEX_PC is %b, OFFSET is %b, Zero is %b, PCBranch_result%b, passed PC is %b",
+//				UUT.execution.IDEX_PC,
+//				UUT.execution.imme32,
+//				UUT.execution.Zero,
+//				UUT.execution.PCBranch_result,
+//				UUT.execution.PCBranch_EXMEM
+//	);	#20;
+//	$display ( "IDEX_PC is %b, OFFSET is %b, Zero is %b, PCBranch_result%b, passed PC is %b",
+//				UUT.execution.IDEX_PC,
+//				UUT.execution.imme32,
+//				UUT.execution.Zero,
+//				UUT.execution.PCBranch_result,
+//				UUT.execution.PCBranch_EXMEM
+//	);
+//	#20;
+//	$display ( "IDEX_PC is %b, OFFSET is %b, Zero is %b, PCBranch_result%b, passed PC is %b",
+//				UUT.execution.IDEX_PC,
+//				UUT.execution.imme32,
+//				UUT.execution.Zero,
+//				UUT.execution.PCBranch_result,
+//				UUT.execution.PCBranch_EXMEM
+//	);
+//	#20;
+//	$display ( "IDEX_PC is %b, OFFSET is %b, Zero is %b, PCBranch_result%b, passed PC is %b",
+//				UUT.execution.IDEX_PC,
+//				UUT.execution.imme32,
+//				UUT.execution.Zero,
+//				UUT.execution.PCBranch_result,
+//				UUT.execution.PCBranch_EXMEM
+//	);
+//	#20;
+//	$display ( "IDEX_PC is %b, OFFSET is %b, Zero is %b, PCBranch_result%b, passed PC is %b",
+//				UUT.execution.IDEX_PC,
+//				UUT.execution.OFFSET,
+//				UUT.execution.Zero,
+//				UUT.execution.PCBranch_result,
+//				UUT.execution.PCBranch_EXMEM
+//	);
+//	#20;
+//	$display ( "IDEX_PC is %b, OFFSET is %b, Zero is %b, PCBranch_result%b, passed PC is %b",
+//				UUT.execution.IDEX_PC,
+//				UUT.execution.OFFSET,
+//				UUT.execution.Zero,
+//				UUT.execution.PCBranch_result,
+//				UUT.execution.PCBranch_EXMEM
+//	);
+//	#20;
+//	$display ( "IDEX_PC is %b, OFFSET is %b, Zero is %b, PCBranch_result%b, passed PC is %b",
+//				UUT.execution.IDEX_PC,
+//				UUT.execution.OFFSET,
+//				UUT.execution.Zero,
+//				UUT.execution.PCBranch_result,
+//				UUT.execution.PCBranch_EXMEM
+//	);
+//	#20;
+//	$display ( "IDEX_PC is %b, OFFSET is %b, Zero is %b, PCBranch_result%b, passed PC is %b",
+//				UUT.execution.IDEX_PC,
+//				UUT.execution.OFFSET,
+//				UUT.execution.Zero,
+//				UUT.execution.PCBranch_result,
+//				UUT.execution.PCBranch_EXMEM
+//	);
+//	
+//	#20;
+//	$display("IDEX is %b, EXMEM is %b, reg1 is %b, reg2 is %b. ALUresult is %b",	
+//				UUT.execution.IDEX,
+//				UUT.execution.EXMEM,
+//				UUT.execution.REGISTER_1,
+//				UUT.execution.REGISTER_2,
+//				//UUT.execution.imme32,
+//				//UUT.execution.ALU_BIN,
+//				//UUT.execution.alu_exe_b.out,
+//				UUT.execution.ALUresult
+//	);
+//	
+//		#20;
+//	$display("IDEX is %b, EXMEM is %b, reg1 is %b, reg2 is %b. ALUresult is %b",	
+//				UUT.execution.IDEX,
+//				UUT.execution.EXMEM,
+//				UUT.execution.REGISTER_1,
+//				UUT.execution.REGISTER_2,
+//				//UUT.execution.imme32,
+//				//UUT.execution.ALU_BIN,
+//				//UUT.execution.alu_exe_b.out,
+//				UUT.execution.ALUresult
+//	);
+//		#20;
+//	$display("IDEX is %b, EXMEM is %b, reg1 is %b, reg2 is %b. ALUresult is %b",	
+//				UUT.execution.IDEX,
+//				UUT.execution.EXMEM,
+//				UUT.execution.REGISTER_1,
+//				UUT.execution.REGISTER_2,
+//				//UUT.execution.imme32,
+//				//UUT.execution.ALU_BIN,
+//				//UUT.execution.alu_exe_b.out,
+//				UUT.execution.ALUresult
+//	);
+//		#20;
+//	$display("IDEX is %b, EXMEM is %b, reg1 is %b, reg2 is %b. ALUresult is %b",	
+//				UUT.execution.IDEX,
+//				UUT.execution.EXMEM,
+//				UUT.execution.REGISTER_1,
+//				UUT.execution.REGISTER_2,
+//				//UUT.execution.imme32,
+//				//UUT.execution.ALU_BIN,
+//				//UUT.execution.alu_exe_b.out,
+//				UUT.execution.ALUresult
+//	);	#20;
+//	$display("IDEX is %b, EXMEM is %b, reg1 is %b, reg2 is %b. ALUresult is %b",	
+//				UUT.execution.IDEX,
+//				UUT.execution.EXMEM,
+//				UUT.execution.REGISTER_1,
+//				UUT.execution.REGISTER_2,
+//				//UUT.execution.imme32,
+//				//UUT.execution.ALU_BIN,
+//				//UUT.execution.alu_exe_b.out,
+//				UUT.execution.ALUresult
+//	);
+//		#20;
+//	$display("IDEX is %b, EXMEM is %b, reg1 is %b, reg2 is %b. ALUresult is %b",	
+//				UUT.execution.IDEX,
+//				UUT.execution.EXMEM,
+//				UUT.execution.REGISTER_1,
+//				UUT.execution.REGISTER_2,
+//				//UUT.execution.imme32,
+//				//UUT.execution.ALU_BIN,
+//				//UUT.execution.alu_exe_b.out,
+//				UUT.execution.ALUresult
+//	);
+//		#20;
+//	$display("IDEX is %b, EXMEM is %b, reg1 is %b, reg2 is %b. ALUresult is %b",	
+//				UUT.execution.IDEX,
+//				UUT.execution.EXMEM,
+//				UUT.execution.REGISTER_1,
+//				UUT.execution.REGISTER_2,
+//				//UUT.execution.imme32,
+//				//UUT.execution.ALU_BIN,
+//				//UUT.execution.alu_exe_b.out,
+//				UUT.execution.ALUresult
+//	);	#20;
+//	$display("IDEX is %b, EXMEM is %b, reg1 is %b, reg2 is %b. ALUresult is %b",	
+//				UUT.execution.IDEX,
+//				UUT.execution.EXMEM,
+//				UUT.execution.REGISTER_1,
+//				UUT.execution.REGISTER_2,
+//				//UUT.execution.imme32,
+//				//UUT.execution.ALU_BIN,
+//				//UUT.execution.alu_exe_b.out,
+//				UUT.execution.ALUresult
+//	);	#20;
+//	$display("IDEX is %b, EXMEM is %b, reg1 is %b, reg2 is %b. ALUresult is %b",	
+//				UUT.execution.IDEX,
+//				UUT.execution.EXMEM,
+//				UUT.execution.REGISTER_1,
+//				UUT.execution.REGISTER_2,
+//				//UUT.execution.imme32,
+//				//UUT.execution.ALU_BIN,
+//				//UUT.execution.alu_exe_b.out,
+//				UUT.execution.ALUresult
+//	);
+//		#20;
+//	$display("IDEX is %b, EXMEM is %b, reg1 is %b, reg2 is %b. ALUresult is %b",	
+//				UUT.execution.IDEX,
+//				UUT.execution.EXMEM,
+//				UUT.execution.REGISTER_1,
+//				UUT.execution.REGISTER_2,
+//				//UUT.execution.imme32,
+//				//UUT.execution.ALU_BIN,
+//				//UUT.execution.alu_exe_b.out,
+//				UUT.execution.ALUresult
+//	);
+
+
+
+	#20;
+	$display("IFID is %b, immeS is %b, imme32 is %b",	
+				UUT.decode.IFID,
+				UUT.decode.imme_gene.immeS,
+				UUT.decode.imme_gene.imme32
+	);
+	#20;
+	$display("IFID is %b, immeS is %b, imme32 is %b",	
+				UUT.decode.IFID,
+				UUT.decode.imme_gene.immeS,
+				UUT.decode.imme_gene.imme32
+	);
+	#20;
+	$display("IFID is %b, immeS is %b, imme32 is %b",	
+				UUT.decode.IFID,
+				UUT.decode.imme_gene.immeS,
+				UUT.decode.imme_gene.imme32
+	);
+	#20;
+	$display("IFID is %b, immeS is %b, imme32 is %b",	
+				UUT.decode.IFID,
+				UUT.decode.imme_gene.immeS,
+				UUT.decode.imme_gene.imme32
+	);
+	#20;
+	$display("IFID is %b, immeS is %b, imme32 is %b",	
+				UUT.decode.IFID,
+				UUT.decode.imme_gene.immeS,
+				UUT.decode.imme_gene.imme32
+	);
+	#20;
+	$display("IFID is %b, immeS is %b, imme32 is %b",	
+				UUT.decode.IFID,
+				UUT.decode.imme_gene.immeS,
+				UUT.decode.imme_gene.imme32
+	);
+	#20;
+	$display("IFID is %b, immeS is %b, imme32 is %b",	
+				UUT.decode.IFID,
+				UUT.decode.imme_gene.immeS,
+				UUT.decode.imme_gene.imme32
+	);
+	#20;
+	$display("IFID is %b, immeS is %b, imme32 is %b",	
+				UUT.decode.IFID,
+				UUT.decode.imme_gene.immeS,
+				UUT.decode.imme_gene.imme32
+	);
+	#20;
+	$display("IFID is %b, immeS is %b, imme32 is %b",	
+				UUT.decode.IFID,
+				UUT.decode.imme_gene.immeS,
+				UUT.decode.imme_gene.imme32
+	);
+
+
+
+	$display("IDEX is %b, imme32 is %b, imme32 is %b, OFFSET is %b",	
+				UUT.execution.IDEX,
+				UUT.decode.imme32,
+				UUT.execution.imme32,
+				UUT.execution.OFFSET
+	);
+	#20;
+	$display("IDEX is %b, imme32 is %b, imme32 is %b, OFFSET is %b",	
+				UUT.execution.IDEX,
+				UUT.decode.imme32,
+				UUT.execution.imme32,
+				UUT.execution.OFFSET
+	);
+	#20;
+	$display("IDEX is %b, imme32 is %b, imme32 is %b, OFFSET is %b",	
+				UUT.execution.IDEX,
+				UUT.decode.imme32,
+				UUT.execution.imme32,
+				UUT.execution.OFFSET
+	);
+	#20;
+	$display("IDEX is %b, imme32 is %b, imme32 is %b, OFFSET is %b",	
+				UUT.execution.IDEX,
+				UUT.decode.imme32,
+				UUT.execution.imme32,
+				UUT.execution.OFFSET
+	);
+	#20;
+	$display("IDEX is %b, imme32 is %b, imme32 is %b, OFFSET is %b",	
+				UUT.execution.IDEX,
+				UUT.decode.imme32,
+				UUT.execution.imme32,
+				UUT.execution.OFFSET
+	);
+	#20;
+	$display("IDEX is %b, imme32 is %b, imme32 is %b, OFFSET is %b",	
+				UUT.execution.IDEX,
+				UUT.decode.imme32,
+				UUT.execution.imme32,
+				UUT.execution.OFFSET
+	);
+	#20;
+	$display("IDEX is %b, imme32 is %b, imme32 is %b, OFFSET is %b",	
+				UUT.execution.IDEX,
+				UUT.decode.imme32,
+				UUT.execution.imme32,
+				UUT.execution.OFFSET
+	);
+	

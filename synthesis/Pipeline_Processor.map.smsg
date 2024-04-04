@@ -1,0 +1,4 @@
+Info (10281): Verilog HDL Declaration information at Pipeline_Processor.v(113): object "WRITE_BACK" differs only in case from object "write_back" in the same scope File: D:/College/EEC180/Labs/Pipeline_processor/synthesis/Pipeline_Processor.v Line: 113
+Warning (10268): Verilog HDL information at DATA_MEM.v(14): always construct contains both blocking and non-blocking assignments File: D:/College/EEC180/Labs/Pipeline_processor/hdl/DATA_MEM.v Line: 14
+Info (10281): Verilog HDL Declaration information at instruction_execution.v(10): object "Zero" differs only in case from object "zero" in the same scope File: D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_execution.v Line: 10
+Info (10281): Verilog HDL Declaration information at instruction_data_mem.v(5): object "address" differs only in case from object "ADDRESS" in the same scope File: D:/College/EEC180/Labs/Pipeline_processor/hdl/instruction_data_mem.v Line: 5

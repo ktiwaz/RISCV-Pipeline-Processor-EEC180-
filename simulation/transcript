@@ -1,0 +1,53 @@
+# Compile of REGISTER.v was successful.
+# Compile of ALU.v was successful.
+# Compile of ALU_control.v was successful.
+# Compile of control.v was successful.
+# Compile of DATA_MEM.v was successful.
+# Compile of imme_generator.v was successful.
+# Compile of instruction_data_mem.v was successful.
+# Compile of instruction_decode.v was successful.
+# Compile of instruction_execution.v was successful.
+# Compile of instruction_fetch.v was successful.
+# Compile of instruction_MEM.v was successful.
+# Compile of instruction_write_back.v was successful.
+# Compile of Pipeline_Processor.v was successful.
+# Compile of ttb_instruction_write_back.v was successful.
+# Compile of tb_instruction_data_mem.v was successful.
+# Compile of tb_instruction_decode.v was successful.
+# Compile of tb_instruction_execution.v was successful with warnings.
+# Compile of tb_instruction_fetch.v was successful.
+# Compile of tb_Pipeline_Processor.v was successful.
+# 19 compiles, 0 failed with no errors.
+vsim -gui work.tb_Pipeline_Processor
+# vsim -gui work.tb_Pipeline_Processor 
+# Start time: 13:30:47 on Mar 13,2024
+# Loading work.tb_Pipeline_Processor
+# Loading work.Pipeline_Processor
+# Loading work.instruction_fetch
+# Loading work.instruction_MEM
+# Loading work.instruction_decode
+# Loading work.control
+# Loading work.imme_generator
+# Loading work.instruction_execution
+# Loading work.ALU_control
+# Loading work.ALU
+# Loading work.instruction_data_mem
+# Loading work.DATA_MEM
+# Loading work.instruction_write_back
+# Loading work.REGISTER
+run 8640ps
+# Input matrix 1 :
+#             2            1            4
+#             0            2            4
+#             3            1            1
+# Input matrix 2 :
+#             5            0            0
+#             1            1            2
+#             3            4            2
+# The answer is :
+#            23           17           10
+#            14           18           12
+#            19            5            4
+quit -sim
+# End time: 13:34:13 on Mar 13,2024, Elapsed time: 0:03:26
+# Errors: 0, Warnings: 0
